@@ -374,6 +374,25 @@ body {
 	top: 15%;
 	transform: scale(1.5);
 }
+:root {
+	--bg: #1a1e2d;
+	--green: #a5ea9b;
+	--pink: #ff61d8;
+	--blue: #569cfa;
+	--orange: #ffcc81;
+	--cyan: #7ed1e2;
+}
+
+/*body {
+	height: 100vh;
+	width: 100vw;
+	background: var(--bg);
+	display: flex;
+	place-content: center;
+	align-items: flex-end;
+	overflow: hidden;
+}*/
+
 .container {
 	width: 30vw;
 	height: 30vh;
@@ -384,14 +403,7 @@ body {
 		width: 100%;
 		overflow: visible;
 	}
-:root {
-	--bg: #1a1e2d;
-	--green: #a5ea9b;
-	--pink: #ff61d8;
-	--blue: #569cfa;
-	--orange: #ffcc81;
-	--cyan: #7ed1e2;
-}
+
 #bongo-cat {
 	fill: var(--bg);
 	stroke-linecap: round;
@@ -439,3 +451,5 @@ body {
 	#bongo-cat .headphone .speaker path:first-child {
 		stroke: var(--cyan);
 	}
+
+/* Countdown */
